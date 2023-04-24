@@ -1,0 +1,61 @@
+.intro{
+    background-image:url(https://wallpapers.com/images/high/1920-x-1080-nature-desktop-irn4bth9705xwtiz.webp);
+    background-blend-mode: multiply;
+    height: 300px;
+    padding: 1em;
+    @media (min width:40rem) {
+        .intro
+    }
+    /*flex-wrap: wrap;*/
+    color: #fff;
+}
+
+span{
+    color: lime;
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+    padding: 1em;
+}
+
+.pillars{
+    background-color: lime;
+    margin: 0;
+    padding: 12vh 0;
+    height: 300px;
+
+    display: flex;
+    justify-content: space-between 5px;
+    justify-content: space-around 3px;
+    box-sizing: border-box;
+    @media (min width:40rem) {
+        .pillars
+    }
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.cta{
+    background-image: url(https://wallpapers.com/images/high/grass-background-7qx0gf3ejgayizod.webp);
+    height: 300px;
+    color: #fff;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: red;
+}
+
+
+
+
